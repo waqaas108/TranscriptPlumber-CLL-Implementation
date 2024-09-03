@@ -1,0 +1,25 @@
+Run	source_name	cell_type	condition
+SRR16522866	RS	Malignant B cells	RS
+SRR16522867	RS	Malignant B cells	RS
+SRR16522868	RS	Malignant B cells	RS
+SRR16522869	RS	Malignant B cells	RS
+SRR16522870	RS	Malignant B cells	RS
+SRR16522871	RS	Malignant B cells	RS
+SRR16522872	RS	Malignant B cells	RS
+SRR16522873	RS	Malignant B cells	RS
+SRR16522874	RS	Malignant B cells	RS
+SRR16522875	RS	Malignant B cells	RS
+SRR16522876	RS	Malignant B cells	RS
+SRR16522881	B cell	Splenic B cell	normal
+SRR16522882	B cell	Splenic B cell	normal
+SRR16522883	B cell	Splenic B cell	normal
+SRR16522884	B cell	Splenic B cell	normal
+SRR16522885	CLL	Malignant B cells	CLL
+SRR16522886	CLL	Malignant B cells	CLL
+SRR16522887	CLL	Malignant B cells	CLL
+SRR16522888	CLL	Malignant B cells	CLL
+SRR16522889	CLL	Malignant B cells	CLL
+SRR16522890	CLL_RS2	Malignant B cells	CLL
+SRR16522891	CLL_RS4	Malignant B cells	CLL
+SRR16522892	CLL_RS6	Malignant B cells	CLL
+SRR16522893	CLL_RS7	Malignant B cells	CLL
