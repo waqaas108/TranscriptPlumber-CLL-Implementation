@@ -22,7 +22,7 @@ To analyze gene expression differences between normal B cells, CLL, CLL transiti
 
 For each gene, I identified all corresponding transcript IDs from the dataset and computed the sum of their TPM values within each sample group (B cell, CLL, CLL_RS, RS). This summed value represents the total transcript abundance for that gene in a particular sample. Next, I calculated the mean transcript abundance across all samples within each group to derive a representative expression level for each gene.
 
-![Figure 1: Depiction of how L2 Normalization removes the TPM quantity of individual transcripts in a gene as a factor and allows for direct comparison of the variance in individual transcript TPM values. The normalized TPMs for a gene can then be considered as vectors, and the distance between the vectors for each gene is taken as a measure of Transcript Abundance Variance.](results/image.png)
+![Figure 1: Depiction of how L2 Normalization removes the TPM quantity of individual transcripts in a gene as a factor and allows for direct comparison of the variance in individual transcript TPM values. The normalized TPMs for a gene can then be considered as vectors, and the distance between the vectors for each gene is taken as a measure of Transcript Abundance Variance.](./results/image.png)
 
 To assess variance in gene expression across different conditions, I performed L2 normalization on the summed TPM values for each gene. L2 normalization was achieved by dividing each transcript TPM value by the gene’s Euclidean norm (the square root of the sum of squares of all TPM values for that gene across samples). This normalization step ensures that gene expression levels are scaled appropriately, facilitating direct comparison between groups.
 
@@ -38,11 +38,11 @@ Two primary visualizations were generated to interpret the results:
 
 ## Results
 
-![Figure 2: Bar graph showing the mean transcript abundance variance and differential gene expression metrics side by side for comparisons made between all combinations of the disease states.](results/bars_all_comparisons.png)
+![Figure 2: Bar graph showing the mean transcript abundance variance and differential gene expression metrics side by side for comparisons made between all combinations of the disease states.](./results/bars_all_comparisons.png)
 
 My analysis identified significant transcriptional changes associated with the progression from normal B cells to RS, but not as much for the progression from normal B cells to CLL. This finding suggests that most transcript-level dysregulation occurs at the threshold between CLL and RS, which might be a key factor in the transformation of CLL into more aggressive types of cancer.
 
-![Figure 3: Scatterplot showing the top ten genes by Transcript Abundance Variance within the Log Fold Change thresholds of -2 and 2.](results/scatterplot_all_comparisons.png)
+![Figure 3: Scatterplot showing the top ten genes by Transcript Abundance Variance within the Log Fold Change thresholds of -2 and 2.](./results/scatterplot_all_comparisons.png)
 
 The scatter plot further highlighted specific genes that showed the most pronounced differences in expression between the groups, including **Klr1, Fam181a, Sema4c, MCF2,** and **Dcstamp**. These genes may represent novel markers or drivers of disease transformation that warrant further investigation.
 
