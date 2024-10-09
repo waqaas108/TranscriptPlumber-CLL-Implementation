@@ -30,7 +30,7 @@ Following normalization, I computed Euclidean distances between each pair of sam
 
 ### Visualization and Interpretation
 
-Two primary visualizations were generated to interpret the results:
+Three primary visualizations were generated to interpret the results:
 
 1. **Bar Graph of Mean Euclidean Distances and Mean Absolute Log2 Fold Changes:** This plot displays the average Euclidean distances and mean absolute log2 fold changes across different comparison groups ('B cell_vs_CLL', 'B cell_vs_CLL_RS', 'B cell_vs_RS', 'CLL_vs_CLL_RS', 'CLL_vs_RS', 'CLL_RS_vs_RS'). This approach highlights the overall transcriptomic differences between the groups at the gene level.
 
@@ -45,6 +45,10 @@ My analysis identified significant transcriptional changes associated with the p
 ![Figure 3: Scatterplot showing the top ten genes by Transcript Abundance Variance within the Log Fold Change thresholds of -2 and 2.](./results/scatterplot_all_comparisons.png)
 
 The scatter plot further highlighted specific genes that showed the most pronounced differences in expression between the groups, including **Klr1, Fam181a, Sema4c, MCF2,** and **Dcstamp**. These genes may represent novel markers or drivers of disease transformation that warrant further investigation.
+
+![Figure 4: Heatmap for Differential Gene Expression as published in the original paper (left), and heatmap for Transcript Abundance Variance z-scores for the 34 most significant genes in the analysis (right).](./results/heatmap.png)
+
+Looking at the heatmap for differential gene expression published with the paper, we can see that the pattern for gene expression is markedly different for the Richter Syndrome cohort when compared to any of the other 3 cohorts. However, looking at the heatmap for TAV scores, we can see a concentration of genes with high TAV in the CLL vs RS comparison group, which shows that there is a group of genes (Fam181a, C2cd4c, Tdrp, Myocd, Med12l, Dab2ip, Map9) that become transcriptionally deviant in the process of transitioning from CLL to RS specifically.
 
 ## Discussion
 
