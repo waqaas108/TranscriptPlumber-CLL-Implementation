@@ -36,6 +36,8 @@ Three primary visualizations were generated to interpret the results:
 
 2. **Scatter Plot of Euclidean Distance vs. Log2 Fold Change:** This plot identifies top genes by Euclidean distance (above the 95th percentile of Euclidean distance) that have a log2 fold change less than 2, which is the exclusion threshold used in the original study for the dataset. This provides a more zoomed-in view of contributing genes that the original study may not have identified due to insufficient differential gene expression. For each gene, the highest Euclidean distance across all six comparison groups is plotted. In the interactive version of the plot, hovering over each point reveals which comparison group generated the Euclidean distance. The top ten genes by Euclidean distance have been highlighted and annotated.
 
+3.	**Heatmap of Euclidean Distances for top performing genes:** This plot represents the z-scores for Euclidean distance for the 34 top-performing significant genes (|FC| < 2, ED >95th percentile) across all comparison groups, as identified in the scatterplot.
+
 ## Results
 
 ![Figure 2: Bar graph showing the mean transcript abundance variance and differential gene expression metrics side by side for comparisons made between all combinations of the disease states.](./results/bars_all_comparisons.png)
